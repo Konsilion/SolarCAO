@@ -25,7 +25,7 @@ Pour commencer nous vous laissons prendre plus ample connaissance du projet : Ca
 * Vous pouvez télécharger le package `Modélisation 3D` en tapant la commande Git suivante :
 
 ```
-git clone https://github.com/Konsilion/SolarCAO
+git clone https://github.com/Konsilion/SolarCAO.git
 
 ```
 
