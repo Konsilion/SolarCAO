@@ -3,7 +3,7 @@ hide:
   - toc
 ---
 
-# Salon de discussion
+# Chat de discussion
 
 *Nous utilisons la technique RocketChat, hébergée par [Les communs](https://lescommuns.org)*
 

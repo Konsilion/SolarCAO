@@ -3,12 +3,11 @@ hide:
   - toc
 ---
 
-# Nos prises de notes
+# Les prises de notes
 
 
-:::{note}
-
-**Les Prochains Petits Pas**
+:::{admonition} Les Prochains Petits Pas
+:class: dropdown, note
 
 * Cliquer ici pour [éditer le pad](https://pad.lescommuns.org/s/CST-plisson) (Ctrl + clic)
 
@@ -17,14 +16,11 @@ hide:
 
 
 
-:::{seealso}
-:class: dropdown
 
-**Les divers Pads** :
+:::{admonition} Les divers Pads
+:class: seealso, dropdown
 
 * [Présenter et transmettre cette technologie](https://konsilion.fr/pads/CST-plisson_transmission?both)
-
-
 :::
    
 
