@@ -10,9 +10,9 @@ hide:
 
 **Les Prochains Petits Pas**
 
-* Cliquer ici pour [éditer le pad](https://konsilion.fr/pads/s/CST-plisson) (Ctrl + clic)
+* Cliquer ici pour [éditer le pad](https://pad.lescommuns.org/s/CST-plisson) (Ctrl + clic)
 
-<iframe width="100%" height="550" frameBorder="0" src="https://konsilion.fr/pads/CST-plisson" loading="lazy"></iframe>
+<iframe width="100%" height="550" frameBorder="0" src="https://pad.lescommuns.org/s/CST-plisson" loading="lazy"></iframe>
 :::
 
 

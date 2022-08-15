@@ -7,9 +7,9 @@ sd_hide_title: true
 ---
 
 
-# Accueil
+# Accueil - 💒
 
-## **Capteur solaire thermique - Low-tech**
+## **Capteur solaire thermique - Low-tech** 🌞 🌞
 
 Ce document est régi par les termes de la licence juridique [Creative Commons CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.fr) 
 
@@ -69,7 +69,7 @@ L'enjeu de la documentation est de transmettre les informations nécessaires à 
 :link: contenu/cao-et-usages
 :link-type: doc
 :class-header: bg-light
-:class-footer: bg-dark
+:class-footer: bg-light
 
 {octicon}`check-circle-fill;1.5em;sd-mr-1` **Usages & Fonctionnalités**
 ^^^
@@ -87,6 +87,7 @@ L'enjeu de la documentation est de transmettre les informations nécessaires à 
 :link: informations/contacts
 :link-type: doc
 :class-header: bg-light
+:class-footer: bg-light
 
 {octicon}`comment-discussion;1.5em;sd-mr-1` **Communauté**
 ^^^

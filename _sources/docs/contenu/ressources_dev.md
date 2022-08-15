@@ -15,11 +15,8 @@ git clone https://github.com/Konsilion/SolarCAO.git
 
 ```
 
-ou
 
-* Se rendre sur le [répertoire GrabCAD](https://grabcad.com/library/automated-solar-air-heater-1)
+* Ou en vous rendant sur ce [répertoire GrabCAD](https://grabcad.com/library/automated-solar-air-heater-1)
 
-
-*Cette page est en cours de construction*
 
 
