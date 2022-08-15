@@ -1,0 +1,71 @@
+# A MODIFIER =====================================================================================
+
+
+# Book settings
+# Learn more at https://jupyterbook.org/customize/config.html
+
+title: Automated solar air heater
+author: Quentin PLISSON (support Konsilion)
+copyright: "Licence juridique Creative Commons CC-BY-SA"  # Copyright year to be placed in the footer
+# logo: docs/logo.png
+
+
+# Information about where the book exists on the web
+repository:
+  url: https://github.com/Konsilion/SolarCAO  # Online location of your book
+  branch: master  # Which branch of the repository should be used when creating links (optional)
+
+
+
+
+
+
+
+
+
+
+
+
+# NE PAS MODIFIER =====================================================================================
+
+
+# Force re-execution of notebooks on each build.
+# See https://jupyterbook.org/content/execute.html
+execute:
+  execute_notebooks: force
+
+# Define the name of the latex output file for PDF builds
+latex:
+  latex_documents:
+    targetname: book.tex
+
+# Add GitHub buttons to your book
+# See https://jupyterbook.org/customize/config.html#add-a-link-to-your-repository
+html:
+  use_issues_button: true
+  use_repository_button: true
+  use_edit_page_button: false
+  favicon: docs/logo.png
+    
+sphinx:
+  config:
+    html_theme: sphinx_book_theme
+    html_theme_options: 
+        style_nav_header_background: white
+        announcement: "📢 Ceci est un message d'annonce 👂"
+        toc_title: "Table des matières"
+        home_page_in_toc: true
+        logo_only: false
+        extra_navbar: <img src="_static/logo.png" width="25%">    /   <img src="https://konsilion.fr/wp/wp-content/uploads/2022/03/Logo_Konsilion_1.png" width="25%">
+    html_sidebars: 
+        "**": ["search-field.html","sbt-sidebar-nav.html"]
+
+
+
+# Add a bibtex file so that we can create citations
+bibtex_bibfiles:
+  - docs/references.bib
+
+
+launch_buttons:
+  thebe: true

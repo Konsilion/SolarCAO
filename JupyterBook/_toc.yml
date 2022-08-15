@@ -1,0 +1,38 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+
+format: jb-book
+root: docs/index
+parts:
+    - caption: Un peu de théorie
+      chapters:
+        - file: docs/contenu/theorie
+          title: L'énergie solaire
+            
+    - caption: Modélisation 3D & FreeCAD            
+      chapters:
+        - file: docs/contenu/ressources_dev
+          title: Télécharger le projet
+          sections:
+          - file: docs/contenu/cao-et-usages
+            title: Manuels d'utilisation
+          - file: docs/contenu/infographies
+            title: Captures décran
+
+
+    - caption: Communauté            
+      chapters:
+        - file: docs/informations/contacts
+          title: Contacts
+        - file: docs/informations/doc_collaborative
+          title: Coopérer comment et pourquoi ?
+          sections:
+          - file: docs/informations/konnect
+            title: Konnect
+          - file: docs/informations/pad
+            title: Les Pads
+          - file: docs/informations/chat
+            title: Chat de discussion
+          - file: docs/informations/visio
+            title: Salons de visioconférence
