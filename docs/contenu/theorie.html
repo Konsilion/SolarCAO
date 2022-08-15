@@ -52,10 +52,11 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <link rel="shortcut icon" href="../../_static/logo.png"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Infographie" href="infographies.html" />
-    <link rel="prev" title="Capteur solaire thermique - Low-tech" href="../index.html" />
+    <link rel="next" title="Télécharger les ressources de développement" href="ressources_dev.html" />
+    <link rel="prev" title="Accueil" href="../index.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -75,7 +76,7 @@ const thebe_selector_output = ".output, .cell_output"
     <div class="visually-hidden">Toggle in-page Table of Contents</div>
 </label>
 <!-- Headers at the top -->
-<div class="announcement header-item noprint"></div>
+<div class="announcement header-item noprint">Ceci est un message d'annonce</div>
 <div class="header header-item noprint"></div>
 
     
@@ -89,69 +90,58 @@ const thebe_selector_output = ".output, .cell_output"
 <!-- Sidebar -->
 <div class="bd-sidebar noprint" id="site-navigation">
     <div class="bd-sidebar__content">
-        <div class="bd-sidebar__top"><div class="navbar-brand-box">
-    <a class="navbar-brand text-wrap" href="../../index.html">
-      
-        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
-        
-      
-      
-      <img src="../../_static/logo.png" class="logo" alt="logo">
-      
-      
-      <h1 class="site-logo" id="site-title">Automated solar air heater</h1>
-      
-    </a>
-</div><form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
+        <div class="bd-sidebar__top"><form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
   <i class="icon fas fa-search"></i>
-  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
 </form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item active">
         
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
                 <a class="reference internal" href="../index.html">
-                    Capteur solaire thermique - Low-tech
+                    Accueil
                 </a>
             </li>
         </ul>
         <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
-  Capteur Solaire Thermique, Kesako ?
+  Un peu de théorie
  </span>
 </p>
 <ul class="current nav bd-sidenav">
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   Du soleil à l’eau chaude - un peu de théorie
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="infographies.html">
-   Infographie
+   L'énergie solaire
   </a>
  </li>
 </ul>
 <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
-  Usages &amp; FreeCAD
+  Modélisation 3D &amp; FreeCAD
  </span>
 </p>
 <ul class="nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="cao-et-usages.html">
-   Comment utiliser les ressources disponibles
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="ressources_dev.html">
+   Télécharger le projet
   </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="konnect.html">
-   Konnect, vos projets de A à Z
-  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="cao-et-usages.html">
+     Manuels d'utilisation
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
-  Contact
+  Communauté
  </span>
 </p>
 <ul class="nav bd-sidenav">
@@ -160,10 +150,37 @@ const thebe_selector_output = ".output, .cell_output"
    Contacts
   </a>
  </li>
- <li class="toctree-l1">
+ <li class="toctree-l1 has-children">
   <a class="reference internal" href="../informations/doc_collaborative.html">
-   La documentation collaborative
+   Coopérer comment et pourquoi ?
   </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../informations/konnect.html">
+     Konnect
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../informations/pad.html">
+     Les Pads
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../informations/chat.html">
+     Chat de discussion
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../informations/visio.html">
+     Salons de visioconférence
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -173,7 +190,7 @@ const thebe_selector_output = ".output, .cell_output"
              <!-- To handle the deprecated key -->
             
             <div class="navbar_extra_footer">
-            Powered by <a href="https://jupyterbook.org">Jupyter Book</a><br>Deploy & Manage with <a href="https://konsilion.github.io/Konnect/latest">Konnect</a>
+            <img src="https://media-exp1.licdn.com/dms/image/C4E0BAQF0vCbekK-LaQ/company-logo_200_200/0/1658685010676?e=1668643200&v=beta&t=AzXaQHGrwdDU86gN8AzLD0bM1caI1RXU9w9q_OwsUm4" width="25%">    /   <img src="https://konsilion.fr/wp/wp-content/uploads/2022/03/Logo_Konsilion_1.png" width="25%">
             </div>
             
         </div>
@@ -229,51 +246,6 @@ title="Fullscreen mode"
   </span>
 
 </button>
-
-<div class="menu-dropdown menu-dropdown-repository-buttons">
-  <button class="headerbtn menu-dropdown__trigger"
-      aria-label="Source repositories">
-      <i class="fab fa-github"></i>
-  </button>
-  <div class="menu-dropdown__content">
-    <ul>
-      <li>
-        <a href="https://github.com/Konsilion/SolarCAO"
-   class="headerbtn"
-   data-toggle="tooltip"
-data-placement="left"
-title="Source repository"
->
-  
-
-<span class="headerbtn__icon-container">
-  <i class="fab fa-github"></i>
-  </span>
-<span class="headerbtn__text-container">repository</span>
-</a>
-
-      </li>
-      
-      <li>
-        <a href="https://github.com/Konsilion/SolarCAO/issues/new?title=Issue%20on%20page%20%2Fdocs/contenu/theorie.html&body=Your%20issue%20content%20here."
-   class="headerbtn"
-   data-toggle="tooltip"
-data-placement="left"
-title="Open an issue"
->
-  
-
-<span class="headerbtn__icon-container">
-  <i class="fas fa-lightbulb"></i>
-  </span>
-<span class="headerbtn__text-container">open issue</span>
-</a>
-
-      </li>
-      
-    </ul>
-  </div>
-</div>
 
 <div class="menu-dropdown menu-dropdown-download-buttons">
   <button class="headerbtn menu-dropdown__trigger"
@@ -347,20 +319,14 @@ title="Print to PDF"
   <section class="tex2jax_ignore mathjax_ignore" id="du-soleil-a-l-eau-chaude-un-peu-de-theorie">
 <h1>Du soleil à l’eau chaude - un peu de théorie<a class="headerlink" href="#du-soleil-a-l-eau-chaude-un-peu-de-theorie" title="Permalink to this headline">#</a></h1>
 <p>Ce document est régi par les termes de la licence juridique <a class="reference external" href="https://creativecommons.org/licenses/by-sa/4.0/deed.fr">Creative Commons CC-BY-SA 4.0</a></p>
-<hr class="docutils" />
 <p><em>Cette page est en cours de construction</em></p>
-<hr class="docutils" />
-<style>
-  .md-content__button {
-    display: none;
-  }
-</style></section>
+</section>
 
     <script type="text/x-thebe-config">
     {
         requestKernel: true,
         binderOptions: {
-            repo: "Konsilion/SolarCAO",
+            repo: "binder-examples/jupyter-stacks-datascience",
             ref: "master",
         },
         codeMirrorConfig: {
@@ -387,13 +353,13 @@ title="Print to PDF"
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title"><strong>Capteur solaire thermique - Low-tech</strong></p>
+            <p class="prev-next-title">Accueil</p>
         </div>
     </a>
-    <a class='right-next' id="next-link" href="infographies.html" title="next page">
+    <a class='right-next' id="next-link" href="ressources_dev.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Infographie</p>
+        <p class="prev-next-title">Télécharger les ressources de développement</p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>

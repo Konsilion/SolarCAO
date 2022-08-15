@@ -52,10 +52,11 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <link rel="shortcut icon" href="../../_static/logo.png"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="La documentation collaborative" href="doc_collaborative.html" />
-    <link rel="prev" title="Konnect, vos projets de A à Z" href="../contenu/konnect.html" />
+    <link rel="next" title="Coopérer - avec Konnect" href="doc_collaborative.html" />
+    <link rel="prev" title="Comment utiliser les ressources disponibles" href="../contenu/cao-et-usages.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -75,7 +76,7 @@ const thebe_selector_output = ".output, .cell_output"
     <div class="visually-hidden">Toggle in-page Table of Contents</div>
 </label>
 <!-- Headers at the top -->
-<div class="announcement header-item noprint"></div>
+<div class="announcement header-item noprint">Ceci est un message d'annonce</div>
 <div class="header header-item noprint"></div>
 
     
@@ -89,76 +90,58 @@ const thebe_selector_output = ".output, .cell_output"
 <!-- Sidebar -->
 <div class="bd-sidebar noprint" id="site-navigation">
     <div class="bd-sidebar__content">
-        <div class="bd-sidebar__top"><div class="navbar-brand-box">
-    <a class="navbar-brand text-wrap" href="../../index.html">
-      
-        <!-- `logo` is deprecated in Sphinx 4.0, so remove this when we stop supporting 3 -->
-        
-      
-      
-      <img src="../../_static/logo.png" class="logo" alt="logo">
-      
-      
-      <h1 class="site-logo" id="site-title">Automated solar air heater</h1>
-      
-    </a>
-</div><form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
+        <div class="bd-sidebar__top"><form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
   <i class="icon fas fa-search"></i>
-  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
 </form><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
     <div class="bd-toc-item active">
         
         <ul class="nav bd-sidenav bd-sidenav__home-link">
             <li class="toctree-l1">
                 <a class="reference internal" href="../index.html">
-                    Capteur solaire thermique - Low-tech
+                    Accueil
                 </a>
             </li>
         </ul>
         <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
-  Capteur Solaire Thermique, Kesako ?
+  Un peu de théorie
  </span>
 </p>
 <ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="../contenu/theorie.html">
-   <strong>
-    Du soleil à l’eau chaude
-   </strong>
-   <em>
-    - un peu de théorie
-   </em>
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../contenu/infographies.html">
-   Infographie
+   L'énergie solaire
   </a>
  </li>
 </ul>
 <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
-  Usages &amp; FreeCAD
+  Modélisation 3D &amp; FreeCAD
  </span>
 </p>
 <ul class="nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="../contenu/cao-et-usages.html">
-   Comment utiliser les ressources disponibles
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../contenu/ressources_dev.html">
+   Télécharger le projet
   </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="../contenu/konnect.html">
-   <strong>
-    Konnect, vos projets de A à Z
-   </strong>
-  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="../contenu/cao-et-usages.html">
+     Manuels d'utilisation
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 <p aria-level="2" class="caption" role="heading">
  <span class="caption-text">
-  Contact
+  Communauté
  </span>
 </p>
 <ul class="current nav bd-sidenav">
@@ -167,10 +150,37 @@ const thebe_selector_output = ".output, .cell_output"
    Contacts
   </a>
  </li>
- <li class="toctree-l1">
+ <li class="toctree-l1 has-children">
   <a class="reference internal" href="doc_collaborative.html">
-   La documentation collaborative
+   Coopérer comment et pourquoi ?
   </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="konnect.html">
+     Konnect
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="pad.html">
+     Les Pads
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="chat.html">
+     Chat de discussion
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="visio.html">
+     Salons de visioconférence
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -180,7 +190,7 @@ const thebe_selector_output = ".output, .cell_output"
              <!-- To handle the deprecated key -->
             
             <div class="navbar_extra_footer">
-            Powered by <a href="https://jupyterbook.org">Jupyter Book</a><br>Deploy & Manage with <a href="https://konsilion.github.io/Konnect/latest">Konnect</a>
+            <img src="https://media-exp1.licdn.com/dms/image/C4E0BAQF0vCbekK-LaQ/company-logo_200_200/0/1658685010676?e=1668643200&v=beta&t=AzXaQHGrwdDU86gN8AzLD0bM1caI1RXU9w9q_OwsUm4" width="25%">    /   <img src="https://konsilion.fr/wp/wp-content/uploads/2022/03/Logo_Konsilion_1.png" width="25%">
             </div>
             
         </div>
@@ -236,51 +246,6 @@ title="Fullscreen mode"
   </span>
 
 </button>
-
-<div class="menu-dropdown menu-dropdown-repository-buttons">
-  <button class="headerbtn menu-dropdown__trigger"
-      aria-label="Source repositories">
-      <i class="fab fa-github"></i>
-  </button>
-  <div class="menu-dropdown__content">
-    <ul>
-      <li>
-        <a href="https://github.com/Konsilion/SolarCAO"
-   class="headerbtn"
-   data-toggle="tooltip"
-data-placement="left"
-title="Source repository"
->
-  
-
-<span class="headerbtn__icon-container">
-  <i class="fab fa-github"></i>
-  </span>
-<span class="headerbtn__text-container">repository</span>
-</a>
-
-      </li>
-      
-      <li>
-        <a href="https://github.com/Konsilion/SolarCAO/issues/new?title=Issue%20on%20page%20%2Fdocs/informations/contacts.html&body=Your%20issue%20content%20here."
-   class="headerbtn"
-   data-toggle="tooltip"
-data-placement="left"
-title="Open an issue"
->
-  
-
-<span class="headerbtn__icon-container">
-  <i class="fas fa-lightbulb"></i>
-  </span>
-<span class="headerbtn__text-container">open issue</span>
-</a>
-
-      </li>
-      
-    </ul>
-  </div>
-</div>
 
 <div class="menu-dropdown menu-dropdown-download-buttons">
   <button class="headerbtn menu-dropdown__trigger"
@@ -353,11 +318,17 @@ title="Print to PDF"
                 
   <section class="tex2jax_ignore mathjax_ignore" id="contacts">
 <h1>Contacts<a class="headerlink" href="#contacts" title="Permalink to this headline">#</a></h1>
-<p><strong>Quentin PLISSON</strong></p>
+<p><strong>Quentin PLISSON</strong> – créateur des ressources de développement initiales (Ingénieur indépendant, généraliste, concepteur mécanique, formateur FreeCAD)</p>
 <ul class="simple">
-<li><p>mail : <a class="reference external" href="mailto:quentin&#46;plisson&#37;&#52;&#48;cadmea&#46;fr">quentin<span>&#46;</span>plisson<span>&#64;</span>cadmea<span>&#46;</span>fr</a></p></li>
+<li><p><a class="reference external" href="mailto:quentin&#46;plisson&#37;&#52;&#48;cadmea&#46;fr">quentin<span>&#46;</span>plisson<span>&#64;</span>cadmea<span>&#46;</span>fr</a></p></li>
 <li><p>linkedin :  <a class="reference external" href="https://www.linkedin.com/in/quentin-plisson/">Lien vers mon profil</a></p></li>
 <li><p>GrabCAD : <a class="reference external" href="https://grabcad.com/quentin.plisson-1">Lien vers mon profil</a></p></li>
+</ul>
+<p><strong>Nicolas Brémond</strong> – support au déploiement des savoirs (Ingénieur indépendant en énergies, DataScience et informatique)</p>
+<ul class="simple">
+<li><p><a class="reference external" href="mailto:nicolasbremond&#37;&#52;&#48;konsilion&#46;fr">nicolasbremond<span>&#64;</span>konsilion<span>&#46;</span>fr</a></p></li>
+<li><p>linkedin :  <a class="reference external" href="https://www.linkedin.com/in/nicolasb-bremond/">Lien vers mon profil</a></p></li>
+<li><p>GitHub : <a class="reference external" href="https://github.com/Konsilion">Lien vers mon profil</a></p></li>
 </ul>
 </section>
 
@@ -365,7 +336,7 @@ title="Print to PDF"
     {
         requestKernel: true,
         binderOptions: {
-            repo: "Konsilion/SolarCAO",
+            repo: "binder-examples/jupyter-stacks-datascience",
             ref: "master",
         },
         codeMirrorConfig: {
@@ -388,17 +359,17 @@ title="Print to PDF"
                 
     <!-- Previous / next buttons -->
 <div class='prev-next-area'>
-    <a class='left-prev' id="prev-link" href="../contenu/konnect.html" title="previous page">
+    <a class='left-prev' id="prev-link" href="../contenu/cao-et-usages.html" title="previous page">
         <i class="fas fa-angle-left"></i>
         <div class="prev-next-info">
             <p class="prev-next-subtitle">previous</p>
-            <p class="prev-next-title"><strong>Konnect, vos projets de A à Z</strong></p>
+            <p class="prev-next-title">Comment utiliser les ressources disponibles</p>
         </div>
     </a>
     <a class='right-next' id="next-link" href="doc_collaborative.html" title="next page">
     <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">La documentation collaborative</p>
+        <p class="prev-next-title"><strong>Coopérer</strong> <em>- avec Konnect</em></p>
     </div>
     <i class="fas fa-angle-right"></i>
     </a>
